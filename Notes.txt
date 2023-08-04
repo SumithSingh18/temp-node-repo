@@ -1,0 +1,44 @@
+************** FREECODECAMP NODEJS AND EXPRESSJS ******************
+
+Mind Grenade in Node is simply to call a different js file with require('./fileName')
+
+
+Built In Modules in NodeJS
+
+->OS
+->PATH
+-> FS
+-> HTTP
+
+
+-> FS
+
+Like in Python, we open the file and read and write in it
+We can also do that in NodeJS
+
+using const {'readFileSync','writeFileSync'} = require('fs')
+
+flag : 'a' => To append
+
+
+Using readsync to read and write files in JS will give a line by line description of the code. Meaning Synchronise way to read and write the file
+
+
+1:35:00 -> HTTP Module
+
+again, we'll be creating the HTTP Module using require('http')
+
+const http = require('http')
+const server = http.server((req, res)=>{
+///2F
+
+})
+
+
+NPM is a Node Package Manager used to install any type of publically available library out on the web
+
+npm i <packageName> -> for Local Install or Dependency
+
+npm i -g <packageName> -> will be available on anywhere on the device and can be used anytime
+
+
